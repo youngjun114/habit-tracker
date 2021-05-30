@@ -4,6 +4,26 @@ button {
   cursor: pointer;
 }
 
+.habit {
+  font-size: 2.5rem;
+  padding: 0.5em;
+  list-style: none;
+}
+
+.habit-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: darkseagreen;
+  color: white;
+  border-radius: 25%;
+}
+
 .habit-button {
   font-size: 2.5rem;
   margin: 0 0.1em;
@@ -16,11 +36,10 @@ button {
 
 .habit-increase,
 .habit-decrease {
-  color: #755569;
+  color: #6082b6;
 }
 
 .habit-delete {
   font-size: 2rem;
-  vertical-align: baseline;
-  color: darked;
+  color: darkred;
 }
